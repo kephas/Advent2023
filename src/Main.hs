@@ -14,4 +14,8 @@ main = do
     "2" : "1" : _ -> day02_1
     "2" : "2" : _ -> day02_2
     "2" : _ -> day02
+    [] -> days
     _ -> error "None or invalid day number provided."
+
+days :: IO ()
+days = day01 >> day02
