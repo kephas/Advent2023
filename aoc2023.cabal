@@ -15,6 +15,7 @@ executable aoc2023
     -Wall
 
   default-extensions:
+    ImportQualifiedPost
     -- LambdaCase
     -- ScopedTypeVariables
     -- DisambiguateRecordFields
@@ -38,6 +39,7 @@ executable aoc2023
     , matrix
     , megaparsec
     , parsers
+    , string-interpolate
     -- -- Package `split`: Functions for splitting lists.
     -- , split ^>=0.2.4
     -- -- Package `containers`: Brings maps, sets, trees, graphs, sequences.
